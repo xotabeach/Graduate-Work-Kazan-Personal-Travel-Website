@@ -1,0 +1,55 @@
+.ready-steady-go {
+    position: relative;
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+  .gray-rectangle {
+    left:25vw;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    font-family: 'GothamProBold';
+    color: #fff;
+    white-space: normal;
+    border-radius: 10px;
+  }
+  
+  .text {
+    font-family: 'GothamProBoldMedium';
+    color: #fff;
+    font-size: 65px;
+  }
+  
+  .white-frame {
+    position: absolute;
+    margin-top: 0;
+    width: calc(100% + 2px); /* Изменим ширину */
+    height: calc(100% + 2px); /* Изменим высоту */
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+  
+  .apply-button {
+    margin-top: 10vh;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'GothamPro';
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 45px;
+    width: 15%;
+    height: 6vh;
+  }
+  
+  .apply-button:hover {
+    opacity: 1;
+  }
+  

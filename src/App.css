@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.app {
+  background-image: url('./imgs/kazan_one.png') ;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  
+  
+}
+.main{
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Остальные стили вашего сайта */
+@font-face{
+  font-family: GothamPro;
+  src:url(./fonts/gothampro.ttf);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: GothamProBlack;
+  src: url(./fonts/gothampro_black.ttf);
 }
-
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: GothamProBlackItalic;
+  src: url(./fonts/gothampro_blackitalic.ttf);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: GothamProBold;
+  src: url(./fonts/gothampro_bold.ttf);
+}
+@font-face {
+  font-family: GothamProBoldItalic;
+  src: url(./fonts/gothampro_bolditalic.ttf);
+}
+@font-face {
+  font-family: GothamProItalic;
+  src: url(./fonts/gothampro_italic.ttf);
+}
+@font-face {
+  font-family: GothamProLight;
+  src: url(./fonts/gothampro_light.ttf);
+}
+@font-face {
+  font-family: GothamProLightItalic;
+  src: url(./fonts/gothampro_lightitalic.ttf);
+}
+@font-face {
+  font-family: GothamProBoldMedium;
+  src: url(./fonts/gothampro_medium.ttf);
+}
+@font-face {
+  font-family: GothamProBoldMediumItalic;
+  src: url(./fonts/gothampro_mediumitalic.ttf);
 }

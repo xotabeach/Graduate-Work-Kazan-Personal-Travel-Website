@@ -1,0 +1,62 @@
+.navigation-panel {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+    transition: background-color 0.3s, height 0.3s;
+  }
+  
+  .navigation-panel.scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 50px; /* или любая другая высота по вашему выбору */
+  }
+  
+  .logo img {
+    cursor: pointer;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  
+  .nav-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'GothamPro'; 
+    transition: font-size 0.3s ease-in-out;
+  }
+  
+  .nav-button:hover {
+    font-size: 19px;
+  }
+  
+
+
+  .bottom-line {
+    position: fixed;
+    border-radius: 10%;
+    width: 85%;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+  }
+
+  .nav-button:hover + .bottom-line {
+    width: 0;
+  }
